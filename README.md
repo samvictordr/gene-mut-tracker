@@ -1,58 +1,26 @@
-# GeneTrackr: Genomic Mutation Tracking and Analysis Platform
+# Genomic Mutation Tracking and Analysis Platform
 
-GeneTrackr is a comprehensive bioinformatics platform for cataloging, analyzing, and visualizing genetic mutations across organisms. The platform integrates multiple genomic databases and provides real-time sequence context analysis for mutation research, clinical genomics, and comparative studies.
+A comprehensive bioinformatics platform for cataloging, analyzing, and visualizing genetic mutations across organisms. The platform integrates multiple genomic databases and provides real-time sequence context analysis for mutation research, clinical genomics, and comparative studies.
 
 ## Core Analytical Features
 
-### 🧬 Genomic Context Visualization
+### Genomic Context Visualization
 - **Real-time sequence retrieval**: Fetches genomic sequences around mutation sites using the Ensembl REST API
 - **Color-coded nucleotide display**: Visual representation of DNA sequences with mutation highlighting
 - **Flanking sequence analysis**: Displays ±20 base pairs around each mutation for context analysis
 - **Strand-aware positioning**: Correctly handles mutations on both forward and reverse strands
 
-### 🎯 Gene-Centric Analysis
+### Gene-Centric Analysis
 - **Gene metadata integration**: Automatically retrieves gene information from MyGene.info database
 - **Chromosomal mapping**: Provides precise genomic coordinates and chromosomal locations
 - **Gene schematic visualization**: Interactive gene maps showing mutation positions relative to gene structure
 - **External database linking**: Direct links to UniProt, Ensembl, and other genomic resources
 
-### 📊 Mutation Classification and Analytics
+### Mutation Classification and Analytics
 - **Mutation type distribution**: Statistical analysis of mutation types across datasets
 - **Temporal tracking**: Timeline visualization of mutation discovery and reporting patterns
 - **Bulk data handling**: CSV import/export functionality for large-scale mutation datasets
 - **Cross-species comparative analysis**: Tracks mutations across different organisms
-
-## Research Applications
-
-### Clinical Variant Interpretation
-- Input patient variants and access comprehensive genomic context
-- Gene function and disease association analysis
-- Comparative mutation analysis across patient cohorts
-- Export capabilities for clinical reporting workflows
-
-### Cancer Genomics Research
-- Catalog somatic mutations from high-throughput sequencing data
-- Track mutation frequencies across cancer subtypes and stages
-- Analyze mutational hotspots in oncogenes and tumor suppressors
-- Generate publication-ready mutation landscape summaries
-
-### Population Genetics Studies
-- Maintain population-specific variant databases
-- Track allele frequencies across diverse ethnic populations
-- Analyze mutation patterns in genomic regions under selection
-- Export datasets for downstream statistical genetic analysis
-
-### Comparative Evolutionary Studies
-- Track orthologous mutations across species and phylogenetic groups
-- Analyze selection pressures on specific gene families
-- Study mutation rate heterogeneity across genomic regions
-- Compare mutational signatures between related species
-
-### Pharmacogenomics Research
-- Catalog variants affecting drug metabolism and response
-- Link mutations to pharmacokinetic and pharmacodynamic phenotypes
-- Track population-specific drug response variants
-- Support precision medicine research initiatives
 
 ## External Database Integration and APIs
 
@@ -104,12 +72,6 @@ The platform organizes mutation data with comprehensive metadata including:
 
 ## Licensing and Availability
 
-This bioinformatics platform is released under the Creative Commons CC0 1.0 Universal license, ensuring unrestricted access for academic research, clinical applications, and commercial genomics initiatives.
-
-## Research Support and Collaboration
-
-For scientific inquiries, feature requests related to genomic analysis workflows, or collaborative research opportunities, please engage through the GitHub repository. GeneTrackr actively supports contributions from the computational biology, bioinformatics, and genomics research communities.
+This bioinformatics platform is released under the Creative Commons CC0 1.0 Universal license.
 
 ---
-
-*GeneTrackr: Advancing genomic research through integrated mutation analysis and visualization*
